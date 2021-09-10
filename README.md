@@ -1,7 +1,7 @@
 # Nonsys-Win-Docker
 How to modify Windows 10 to run Docker Desktop and WSL on a non-system (C:) drive.
 
-## Movie the Docker installation & service dependencies
+## Move the Docker installation & service dependencies
 1. Download and install Docker for Windows Desktop.
   - https://docs.docker.com/desktop/windows/install/
 2. Copy all docker installation files to a non-system drive.
