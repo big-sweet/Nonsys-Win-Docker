@@ -32,9 +32,9 @@ How to modify Windows 10 to run Docker Desktop and WSL on a non-system (C:) driv
 3. Shutdown all WSL distros:
   - `wsl --shutdown`
 4. Export docker-desktop-data to a .tar file:
-  - `wsl --export docker-desktop-data Z:\docker-desktop-data.tar
+  - `wsl --export docker-desktop-data Z:\docker-desktop-data.tar`
 5. Unregister the current docker-desktop-data location:
-  - wsl --unregister docker-desktop-data
+  - `wsl --unregister docker-desktop-data`
 6. Import the docker-desktop-data from the .tar file in the new location:
   - `wsl --import docker-desktop-data Z:\Docker\data Z:\docker-desktop-data.tar --version 2`
 
